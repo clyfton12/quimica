@@ -1,0 +1,103 @@
+/* estilo.css */
+
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para o corpo */
+body {
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-bottom: 4px solid #f06;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Estilo para as seções */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.section-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-bottom: 4px solid #f06;
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #f06;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #f06;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+section p {
+    font-size: 1.125rem;
+    color: #ddd;
+    line-height: 1.8;
+}
+
+/* Estilo para o link de referências */
+section#referencias {
+    background: rgba(0, 0, 0, 0.6);
+}
